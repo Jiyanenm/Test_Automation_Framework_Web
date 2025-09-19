@@ -32,6 +32,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Submit Maven Dependency Snapshot
+        if: github.event_name != 'pull_request'
         uses: advanced-security/maven-dependency-tree-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
