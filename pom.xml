@@ -46,12 +46,6 @@
             <artifactId>javafaker</artifactId>
             <version>1.0.2</version>
         </dependency>
-        <dependency>
-            <groupId>org.example</groupId>
-            <artifactId>Selenium_Cucumber_Framework_Web</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <build>
